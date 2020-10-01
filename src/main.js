@@ -1,7 +1,53 @@
 import './main.scss';
+import renderHome from './pages/home/home';
 
-const container = document.createElement('div');
+const { body } = document;
 
-container.id = 'content';
+const header = document.createElement('header');
+const nav = document.createElement('nav');
+const logo = document.createElement('a');
+const logoContainer = document.createElement('h2');
+const links = document.createElement('ul');
+const menu = document.createElement('li');
+const menuLink = document.createElement('a');
+const about = document.createElement('li');
+const aboutLink = document.createElement('a');
+const contact = document.createElement('li');
+const contactLink = document.createElement('a');
 
-document.body.appendChild(container);
+logo.classList.add('logo');
+logo.classList.add('active-link');
+logo.id = 'home';
+menuLink.id = 'menu';
+aboutLink.id = 'about';
+contactLink.id = 'contact';
+
+logoContainer.textContent = 'Zack\'s Kitchen';
+menuLink.textContent = 'Menu';
+aboutLink.textContent = 'About Us';
+contactLink.textContent = 'Contact Us';
+
+logo.appendChild(logoContainer);
+nav.appendChild(logo);
+menu.appendChild(menuLink);
+about.appendChild(aboutLink);
+contact.appendChild(contactLink);
+links.appendChild(menu);
+links.appendChild(about);
+links.appendChild(contact);
+nav.appendChild(links);
+header.appendChild(nav);
+body.appendChild(header);
+
+const main = document.createElement('main');
+
+main.id = 'content';
+
+body.appendChild(main);
+
+renderHome();
+
+logo.addEventListener('click', renderHome);
+menuLink.addEventListener('click', renderHome);
+aboutLink.addEventListener('click', renderHome);
+contactLink.addEventListener('click', renderHome);
