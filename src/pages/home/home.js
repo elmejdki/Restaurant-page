@@ -13,6 +13,7 @@ function render() {
   const facebook = document.createElement('span');
   const twitter = document.createElement('span');
 
+  container.innerHTML = '';
   container.className = 'main-page';
   mainSection.className = 'main-section';
   mainBtn.id = 'menu-btn';

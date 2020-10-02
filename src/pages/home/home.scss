@@ -8,32 +8,32 @@
   position: absolute;
   right: 12%;
   bottom: 40%;
-}
 
-.main-section h1 {
-  font-size: 60px;
-}
+  h1 {
+    font-size: 60px;
+  }
 
-.main-section h2 {
-  font-weight: 100;
-}
+  h2 {
+    font-weight: 100;
+  }
 
-.main-section #menu-btn {
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  padding: 5px 40px;
-  cursor: pointer;
-  margin-top: 30px;
-  transition: transform 0.5s ease;
-}
+  #menu-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 40px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.5s ease;
 
-.main-section #menu-btn:hover {
-  transform: scale(1.2);
-}
+    &:hover {
+      transform: scale(1.2);
+    }
 
-.main-section #menu-btn:focus {
-  transform: scale(1);
+    &:focus {
+      transform: scale(1);
+    }
+  }
 }
 
 .social-media {
@@ -45,39 +45,39 @@
   right: 40px;
   bottom: 40px;
   height: 350px;
-}
 
-.social-media .horizontal-bar {
-  width: 1px;
-  background-color: white;
-  height: 150px;
-}
+  .horizontal-bar {
+    width: 1px;
+    background-color: white;
+    height: 150px;
+  }
 
-.social-media .social-icons {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 150px;
-}
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
 
-.social-media .social-icons span {
-  cursor: pointer;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-}
+    span {
+      cursor: pointer;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px;
+    }
 
-.social-media .social-icons .instagram {
-  background-image: url(./images/instagram-logo.png);
-}
+    .instagram {
+      background-image: url(./images/instagram-logo.png);
+    }
 
-.social-media .social-icons .facebook {
-  background-image: url(./images/facebook.png);
-}
+    .facebook {
+      background-image: url(./images/facebook.png);
+    }
 
-.social-media .social-icons .twitter {
-  background-image: url(./images/twitter.png);
+    .twitter {
+      background-image: url(./images/twitter.png);
+    }
+  }
 }
