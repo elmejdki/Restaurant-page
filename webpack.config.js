@@ -67,7 +67,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Mc Donalds',
+      title: 'Zack\'s Kitchen',
     }),
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
