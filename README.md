@@ -1,57 +1,29 @@
-# Project Name
+# Restaurant Page
 
-> One paragraph statement about the project.
+> This project is a restaurant page, I mimic as if I have my own restaurant and come up with the corresponding design to it, the image below show how the home page looks like you can click on the live link below to explore the other pages, this project is part of Microverse curriculum where we should show our understanding of WebPack and ES6 modules.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Vanilla JavaScript,
+- the CSS preprocessor SCSS,
+- webpack,
+- babel
+- stylelint version 13.3.3
+- ESlint version 6.8.0
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo
 
+## Author
 
-## Getting Started
+👤 **Zakariae El Mejdki**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@zakariae_elmejdki](https://twitter.com/zakariaemejdki)
+- Linkedin: [El Mejdki Zakariae](https://www.linkedin.com/in/zakariaeelmejdki/)
 
 ## 🤝 Contributing
 
@@ -62,12 +34,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
