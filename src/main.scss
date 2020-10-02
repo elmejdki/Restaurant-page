@@ -5,12 +5,27 @@
   outline: none;
 }
 
-a {
-  text-decoration: none;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 body {
   position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
