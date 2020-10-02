@@ -1,5 +1,6 @@
 import './main.scss';
 import renderHome from './pages/home/home';
+import renderMenu from './pages/menu/menu';
 
 const { body } = document;
 
@@ -48,6 +49,6 @@ body.appendChild(main);
 renderHome();
 
 logo.addEventListener('click', renderHome);
-menuLink.addEventListener('click', renderHome);
+menuLink.addEventListener('click', renderMenu);
 aboutLink.addEventListener('click', renderHome);
 contactLink.addEventListener('click', renderHome);
