@@ -8,43 +8,39 @@
   justify-content: space-between;
   width: 1000px;
   margin: 0 auto;
+
+  h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+    text-transform: uppercase;
+
+    span {
+      font-weight: 100;
+    }
+  }
+
+  .filter-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+    button {
+      color: black;
+      border: 1px solid white;
+      background-color: white;
+      padding: 5px 15px;
+      border-radius: 15px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &.selected {
+        border-color: #a32e36;
+        background: linear-gradient(to right bottom, #a32e36, #ff1020);
+        color: white;
+      }
+    }
+  }
 }
-
-.page-title h1 {
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 5px black;
-  text-transform: uppercase;
-}
-
-.page-title .filter-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-
-.page-title .filter-buttons button {
-  color: black;
-  border: 1px solid white;
-  background-color: white;
-  padding: 5px 15px;
-  border-radius: 15px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.page-title button.selected {
-  border-color: #a32e36;
-  background: linear-gradient(to right bottom, #a32e36, #ff1020);
-  color: white;
-}
-
-/* stylelint-disable no-descending-specificity */
-
-.page-title h1 span {
-  font-weight: 100;
-}
-
-/* stylelint-enable no-descending-specificity */
 
 .menu-container {
   display: flex;
@@ -60,46 +56,46 @@
   border-radius: 30px;
   padding: 20px;
   margin: 3px;
+
+  .image {
+    width: 200px;
+    height: 150px;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .info {
+    padding-top: 30px;
+    width: 200px;
+
+    .title {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 20px;
+      text-transform: capitalize;
+    }
+
+    .g-cal {
+      color: rgb(255, 72, 72);
+      font-weight: bold;
+
+      i:first-child {
+        padding-right: 10px;
+      }
+    }
+
+    .price {
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 20px;
+      float: right;
+      padding-right: 10px;
+    }
+  }
 }
 
-.plate .image {
-  width: 200px;
-  height: 150px;
-  object-position: center;
-  object-fit: cover;
-}
-
-.plate .info {
-  padding-top: 30px;
-  width: 200px;
-}
-
-.plate .info .title {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.plate .info .g-cal {
-  color: rgb(255, 72, 72);
-  font-weight: bold;
-}
-
-.plate .info .g-cal i:first-child {
-  padding-right: 10px;
-}
-
-.plate .info .price {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 20px;
-  float: right;
-  padding-right: 10px;
-}
-
-.menu-page .show-more {
+.show-more {
   padding: 10px 50px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.466);
