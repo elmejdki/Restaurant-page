@@ -1,6 +1,7 @@
 import './main.scss';
 import renderHome from './pages/home/home';
 import renderMenu from './pages/menu/menu';
+import renderAbout from './pages/about/about';
 
 const { body } = document;
 
@@ -50,5 +51,5 @@ renderHome();
 
 logo.addEventListener('click', renderHome);
 menuLink.addEventListener('click', renderMenu);
-aboutLink.addEventListener('click', renderHome);
+aboutLink.addEventListener('click', renderAbout);
 contactLink.addEventListener('click', renderHome);

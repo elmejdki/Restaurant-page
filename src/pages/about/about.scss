@@ -1,0 +1,27 @@
+.about-page {
+  overflow: hidden;
+  background-image: url(./images/coffee.jpg);
+
+  .restaurant-image {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    border-radius: 20px 0 0 20px;
+    width: 700px;
+  }
+
+  .text {
+    width: 400px;
+    background-color: white;
+    z-index: 100;
+    border-radius: 30px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    padding: 30px;
+
+    .about-quote {
+      padding-top: 30px;
+    }
+  }
+}
