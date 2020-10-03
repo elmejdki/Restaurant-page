@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo
+[Live Demo](https://elmejdki.github.io/Restaurant-page/)
 
 ## Author
 
