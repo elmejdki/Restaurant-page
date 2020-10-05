@@ -1,0 +1,41 @@
+.contact-page {
+  background-image: url(./images/coffee.jpg);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container .contact-info {
+  width: 25%;
+  color: white;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.container .contact-info .card {
+  width: 200px;
+  padding-bottom: 30px;
+}
+
+.container .contact-info .card .title {
+  color: rgb(167, 167, 167);
+}
+
+.container .contact-info .card .data {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.container .map {
+  width: 50%;
+}
+
+.container .map img {
+  width: 100%;
+}
