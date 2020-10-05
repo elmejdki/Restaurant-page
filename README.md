@@ -37,28 +37,29 @@ And afterwards you supposed to run: `npm run server`, to run the project in your
 
 Congrats the project is fully working.
 
-_You may have some issues with the `image-webpack-loader`  but that depend on your operating system each operating system has his own way to solve if you goggled it just for some couple minutes I'm sure you will find the solution, if not you can contact me any time you need I will be happy to help, my contact info are below_
+_You may have some issues with the `image-webpack-loader`  but that depend on your operating system each operating system has his own way to solve it, if you goggled it just for some couple minutes I'm sure you will find the solution, if not you can contact me any time you need I will be happy to help, my contact informations are below_
 
 ### Deployment
 
-for deployment I used gh-pages, but as you see my project is full of files and the `index.html` file is inside the `build/` folder, so in order to deploy using GitHub pages we need to do a simple trick, please follow the commands bellow if you want to deploy on your on repository:
+For deployment I used GitHub pages, but as you see my project is full of files and the `index.html` file is inside the `build/` folder, so in order to deploy using GitHub pages we need to put the `index.html` file in the root of the repository, in order to do this we will use a simple trick, please follow the commands bellow if you want to deploy on your on repository:
 
-- If you have the `build/ `  folder declared inside the `.gitinore`  file please remove it form there.
+- If you have the `build/ `  folder declared inside the `.gitignore`  file please remove it form there.
 
-- rub `npm run build`  to generate the build folder.
+- run `npm run build`  to generate the build folder.
 
-- then make sure that git knows about your subtree:
+- then make sure that git knows about your subtree, using this command:
 
   ```
   git add build && git commit -m "Initial build subtree commit"
   ```
 
-- use subtree push to send it to gh-pages branch in GitHub:
+- after that use subtree push to send it to gh-pages branch in GitHub:
 
   ```
   git subtree push --prefix build origin gh-pages
   ```
 
+Now you have finish check the link of GitHub pages you will find your project deployed there. you can find the link on the repository settings page.
 ## Author
 
 👤 **Zakariae El Mejdki**
