@@ -74,11 +74,12 @@ header {
       display: flex;
       justify-content: space-between;
       list-style: none;
-      width: 300px;
+      max-width: 300px;
 
       li {
         text-transform: uppercase;
         font-weight: bold;
+        margin-right: 10px
       }
     }
   }
@@ -97,4 +98,18 @@ main {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
+
+  // TODO
+  // h1 {
+  //   @media screen and (max-width: 426px) {
+  //     margin-right: 10px;
+  //   }
+    
+  //   @media screen and (max-width: 899px) and (min-width: 426px) {
+  //     margin-right: 10px;
+  //   }
+    
+  //   @media screen and (min-width: 769px) {
+  //   }
+  // }
 }

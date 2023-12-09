@@ -1,24 +1,50 @@
 .about-page {
-  overflow: hidden;
   background-image: url(./images/chicken_tajin.jpg);
 
+  .text-container {
+    position: relative;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
   .restaurant-image {
-    position: absolute;
     top: 150px;
     left: 200px;
     border-radius: 20px 0 0 20px;
-    width: 700px;
+    max-width: 700px;
+
+    @media screen and (max-width: 899px) {
+      width: 90vw;
+    }
   }
 
   .text {
-    width: 400px;
+    position: absolute;
     background-color: white;
     z-index: 100;
     border-radius: 30px;
-    position: absolute;
-    top: 200px;
-    right: 150px;
     padding: 30px;
+
+    @media screen and (max-width: 426px) {
+      top: 139px;
+      right: -5px;
+      width: 200px;
+    }
+    
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+      top: 339px;
+      right: -28px;
+      width: 400px;
+    }
+    
+    @media screen and (min-width: 769px) {
+      top: 339px;
+      right: -48px;
+      width: 400px;
+    }
 
     .about-quote {
       padding-top: 30px;

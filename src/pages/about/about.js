@@ -9,6 +9,7 @@ function render() {
   const text = document.createElement('div');
   const aboutText = document.createElement('div');
   const aboutQuote = document.createElement('div');
+  const textContainer = document.createElement('div');
 
   container.className = 'about-page';
   pageTitle.className = 'page-title';
@@ -16,12 +17,13 @@ function render() {
   text.className = 'text';
   aboutText.className = 'about-text';
   aboutQuote.className = 'about-quote';
+  textContainer.className = "text-container";
 
   container.innerHTML = '';
   image.src = kitchen;
   image.alt = 'Restaurant Image';
   title.innerHTML = '<span>All</span> about us';
-  aboutText.textContent = `The team of Zack's Kitchen consists 
+  aboutText.textContent = `The team of Bouras Viandes consists 
     of professionl chefs who are constantly confirming and 
     imporving their skills. Our chefs always put their soul 
     into creating culinary masterpieces for you, our favorite 
@@ -33,11 +35,13 @@ function render() {
   pageTitle.appendChild(title);
   container.appendChild(pageTitle);
 
-  container.appendChild(image);
+  textContainer.appendChild(image);
 
   text.appendChild(aboutText);
   text.appendChild(aboutQuote);
-  container.appendChild(text);
+  textContainer.appendChild(text);
+
+  container.appendChild(textContainer);
 
   const activeLink = document.querySelector('.active-link');
   activeLink.className = '';

@@ -25,7 +25,7 @@ menuLink.id = 'menu';
 aboutLink.id = 'about';
 contactLink.id = 'contact';
 
-logoContainer.textContent = 'Zack\'s Kitchen';
+logoContainer.textContent = 'Bouras Viandes';
 menuLink.textContent = 'Menu';
 aboutLink.textContent = 'About Us';
 contactLink.textContent = 'Contact Us';

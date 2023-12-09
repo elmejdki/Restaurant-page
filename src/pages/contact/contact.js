@@ -5,21 +5,20 @@ const contactInfos = [
   {
     title: 'Our address',
     data: [
-      'Virmwska str., 174 Tetouan, Morocco',
+      '4 Av. de Condé, 59300 Valenciennes, France',
     ],
   },
   {
     title: 'Work Schedule',
     data: [
-      'Mon-Fri: 10:00-23:00',
-      'Sat-Sun: 10:00-00:00',
+      'Mon-Fri: 09:00-19:00',
+      'Sat-Sun: 09:00-19:00',
     ],
   },
   {
     title: 'Our Contacts',
     data: [
-      '+212 675372051',
-      '+212 708170518',
+      '+33 32 73 09 176',
     ],
   },
 ];

@@ -1,4 +1,5 @@
 import './home.scss';
+import renderMenu from '../menu/menu';
 
 function render() {
   const container = document.getElementById('content');
@@ -24,8 +25,8 @@ function render() {
   facebook.className = 'facebook';
   twitter.className = 'twitter';
 
-  smallTitle.textContent = 'steak';
-  mainTitle.textContent = 'restaurant';
+  smallTitle.textContent = "Boucherie Croix d'Anzin";
+  mainTitle.textContent = "Bouras Viandes";
   mainBtn.textContent = 'MENU';
 
   mainSection.appendChild(smallTitle);
@@ -45,6 +46,7 @@ function render() {
 
   const homeBtn = document.getElementById('home');
   homeBtn.className = 'active-link';
+  mainBtn.addEventListener('click', renderMenu);
 }
 
 export default render;

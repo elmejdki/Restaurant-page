@@ -23,7 +23,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-proposal-object-rest-spread'],
+            plugins: ['@babel/plugin-transform-object-rest-spread'],
           },
         },
       },
@@ -73,7 +73,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Zack\'s Kitchen',
+      title: 'Bouras Viandes',
     }),
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
